@@ -1,5 +1,6 @@
 :root{
 	--pink: rgba(255,227,226, 0.7);
+	--transp: rgba(0, 0, 0, 0.3);
 }
 
 #Startpage {
@@ -19,7 +20,7 @@ h1 {
 	text-align: center;
 
 	color: var(--pink);
-	background-color: rgba(0, 0, 0, 0.3);
+	background-color: var(--transp);
 	width: 320px;
 
 	margin-top: 5%;
@@ -79,7 +80,7 @@ h1 {
 
 	padding-left: 5px;
 
-	background-color: rgba(0, 0, 0, 0.3);
+	background-color: var(--transp);
 	color: var(--pink);
 
 	border-top: 2px solid var(--pink);
@@ -120,30 +121,3 @@ h1 {
 .menu li:hover >ul {
 	opacity: 1;
 }
-/*GRADIENTS*/
-/*
-.menu li:hover >#FIT {
-	background: -webkit-linear-gradient(left,rgba(0, 0, 0, 0.5),rgba(51, 102, 153, 0.8)); 
-	background: -o-linear-gradient(right, rgba(0, 0, 0, 0.5),rgba(51, 102, 153, 0.8));
-	background: -moz-linear-gradient(right, rgba(0, 0, 0, 0.5),rgba(51, 102, 153, 0.8));
-	background: linear-gradient(to right, rgba(0, 0, 0, 0.5),rgba(51, 102, 153, 0.8));
-}
-.menu li:hover >#GRN {
-	background: -webkit-linear-gradient(left,rgba(0, 0, 0, 0.5),rgba(0, 153, 0, 0.8)); 
-	background: -o-linear-gradient(right, rgba(0, 0, 0, 0.5),rgba(0, 153, 0, 0.8));
-	background: -moz-linear-gradient(right, rgba(0, 0, 0, 0.5),rgba(0, 153, 0, 0.8));
-	background: linear-gradient(to right, rgba(0, 0, 0, 0.5),rgba(0, 153, 0, 0.8));
-}
-.menu li:hover >#RED {
-	background: -webkit-linear-gradient(left,rgba(0, 0, 0, 0.5),rgba(204, 24, 30, 0.8)); 
-	background: -o-linear-gradient(right, rgba(0, 0, 0, 0.5),rgba(204, 24, 30, 0.8));
-	background: -moz-linear-gradient(right, rgba(0, 0, 0, 0.5),rgba(204, 24, 30, 0.8));
-	background: linear-gradient(to right, rgba(0, 0, 0, 0.5),rgba(204, 24, 30, 0.8));
-}
-.menu li:hover >#ORN {
-	background: -webkit-linear-gradient(left,rgba(0, 0, 0, 0.5),rgba(255, 153, 0, 0.8)); 
-	background: -o-linear-gradient(right, rgba(0, 0, 0, 0.5),rgba(255, 153, 0, 0.8));
-	background: -moz-linear-gradient(right, rgba(0, 0, 0, 0.5),rgba(255, 153, 0, 0.8));
-	background: linear-gradient(to right, rgba(0, 0, 0, 0.5),rgba(255, 153, 0, 0.8));
-}
-*/
