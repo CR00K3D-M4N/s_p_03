@@ -1,0 +1,149 @@
+:root{
+	--pink: rgba(255,227,226, 0.7);
+}
+
+#Startpage {
+	background: url("stuff/osteon_pape_disort_small.png") ;
+	background-size: 100%;
+}
+
+#headline {
+	margin-left: 8%;
+	display: block;
+
+}
+
+h1 {
+	font-family: 'VT323', cursive;
+	font-size: 42px;
+	text-align: center;
+
+	color: var(--pink);
+	background-color: rgba(0, 0, 0, 0.3);
+	width: 320px;
+
+	margin-top: 5%;
+	
+	border-top: 2px solid var(--pink);
+}
+
+/*reset*/
+.menu,
+.menu ul,
+.menu li,
+.menu a {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+
+.menu {
+	/*positioning*/
+	margin: auto;
+	margin-top: 5%;
+
+	width: relative;
+	position: relative;
+	right: 0px;
+	margin-left: 8%;
+	padding: 10px;
+
+}
+
+.menu li {
+	list-style: none;
+	float: left;
+	display: inline-block;
+	
+	position: relative;
+	padding-right: 15px;
+}
+
+#submenu {
+	font-weight: bold;
+	line-height: 40px;
+}
+
+.menu li a {
+	display: block;
+
+	text-decoration: none;
+	text-align: left;
+	font-family: 'VT323', cursive;
+	
+	font-size: 22px;
+
+	width: 150px;
+	line-height: 30px;
+
+	padding-left: 5px;
+
+	background-color: rgba(0, 0, 0, 0.3);
+	color: var(--pink);
+
+	border-top: 2px solid var(--pink);
+
+	transition: color .3s ease;
+	-webkit-transition: color .3s ease;
+	-moz-transition: color .3s ease;
+	-ms-transition: color .3s ease;
+
+}
+
+.menu ul {
+	position: absolute;
+		
+	transition: opacity .25s ease .1s;
+	-webkit-transition: opacity .25s ease .1s;
+	-moz-transition: opacity .25s ease .1s;
+	-ms-transition: opacity .25s ease .1s;
+}
+
+.menu ul li {
+	height: 0;
+	overflow: hidden;
+	padding: 0;
+}
+
+.menu li:hover >a { 
+	color: rgba(255, 255, 255, 1); 
+	font-size: 24px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-top: 2px solid var(--pink);
+}
+
+.menu li:hover >ul li {
+	height: auto;
+	overflow: visible;
+}
+.menu li:hover >ul {
+	opacity: 1;
+}
+/*GRADIENTS*/
+/*
+.menu li:hover >#FIT {
+	background: -webkit-linear-gradient(left,rgba(0, 0, 0, 0.5),rgba(51, 102, 153, 0.8)); 
+	background: -o-linear-gradient(right, rgba(0, 0, 0, 0.5),rgba(51, 102, 153, 0.8));
+	background: -moz-linear-gradient(right, rgba(0, 0, 0, 0.5),rgba(51, 102, 153, 0.8));
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.5),rgba(51, 102, 153, 0.8));
+}
+.menu li:hover >#GRN {
+	background: -webkit-linear-gradient(left,rgba(0, 0, 0, 0.5),rgba(0, 153, 0, 0.8)); 
+	background: -o-linear-gradient(right, rgba(0, 0, 0, 0.5),rgba(0, 153, 0, 0.8));
+	background: -moz-linear-gradient(right, rgba(0, 0, 0, 0.5),rgba(0, 153, 0, 0.8));
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.5),rgba(0, 153, 0, 0.8));
+}
+.menu li:hover >#RED {
+	background: -webkit-linear-gradient(left,rgba(0, 0, 0, 0.5),rgba(204, 24, 30, 0.8)); 
+	background: -o-linear-gradient(right, rgba(0, 0, 0, 0.5),rgba(204, 24, 30, 0.8));
+	background: -moz-linear-gradient(right, rgba(0, 0, 0, 0.5),rgba(204, 24, 30, 0.8));
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.5),rgba(204, 24, 30, 0.8));
+}
+.menu li:hover >#ORN {
+	background: -webkit-linear-gradient(left,rgba(0, 0, 0, 0.5),rgba(255, 153, 0, 0.8)); 
+	background: -o-linear-gradient(right, rgba(0, 0, 0, 0.5),rgba(255, 153, 0, 0.8));
+	background: -moz-linear-gradient(right, rgba(0, 0, 0, 0.5),rgba(255, 153, 0, 0.8));
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.5),rgba(255, 153, 0, 0.8));
+}
+*/
